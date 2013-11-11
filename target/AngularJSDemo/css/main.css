@@ -1,0 +1,52 @@
+a {
+	cursor:pointer;
+}
+.required{
+	font-color:red;
+	
+}
+input:not([type=submit]){
+	width:20em;
+	
+}
+
+.register,.edit{
+
+form[novalidate] input {	
+	border-style:solid;
+	border-radius:4px;
+
+}
+
+input[required].ng-pristine{
+	
+}
+
+input.ng-invalid.ng-dirty{
+border-left-width: 8px;
+border-color:#e74c3c;
+}
+
+input.ng-valid.ng-dirty{
+	border-left-width: 8px;
+	border-color:#2ecc71;
+}
+
+}
+#angularPortlet .header{
+padding-botton: 10px;
+margin-bottom: 20px;
+border-bottom: 1px solid #EEE;
+}
+
+.signin, .edit{
+float:left;	
+}
+.register, .registerSuccess{
+float:right;	
+}
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 500px; 
+    height: 1200px
+}
